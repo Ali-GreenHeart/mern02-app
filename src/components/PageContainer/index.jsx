@@ -1,6 +1,15 @@
+import { useContext } from "react";
+import { UserContext } from "../../context/UserContext";
+
+
+
 const PageContainer = ({ children }) => {
+
+    const human = useContext(UserContext)
+
     return (
         <>
+            {human.ad}
             <nav>
                 <a href="/">Home</a>
                 <a href="/about">Haqqimizda</a>
