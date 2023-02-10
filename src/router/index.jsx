@@ -4,6 +4,7 @@ import Nicat from "../pages/Nicat";
 import Home from "../pages/Home";
 import News from "../pages/News";
 import CounterWithReducer from "../components/CounterWithReducer";
+import Dogs from "../pages/Dogs";
 
 const WebRouter = () => {
     return (
@@ -12,6 +13,7 @@ const WebRouter = () => {
             <Route path='/about' element={<About />} />
             <Route path='/news' element={<News />} />
             <Route path='/nicat' element={<Nicat />} />
+            <Route path='/dogs' element={<Dogs />} />
             <Route path='/counter-reducer' element={<CounterWithReducer />} />
         </Routes>
     )
