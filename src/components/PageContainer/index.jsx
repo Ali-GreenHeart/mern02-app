@@ -16,6 +16,7 @@ const PageContainer = ({ children }) => {
                 <a href="/news">Xeberler</a>
                 <a href="/nicat">Nicatin sehifesi</a>
                 <a href="/dogs">Dogs page</a>
+                <a href="/users">Users page</a>
             </nav>
             <main>
                 {children}

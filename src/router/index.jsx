@@ -6,6 +6,7 @@ import News from "../pages/News";
 import CounterWithReducer from "../components/CounterWithReducer";
 import Dogs from "../pages/Dogs";
 import DogsRedux from "../pages/DogsRedux";
+import Users from "../pages/Users";
 
 const WebRouter = () => {
     return (
@@ -15,6 +16,7 @@ const WebRouter = () => {
             <Route path='/news' element={<News />} />
             <Route path='/nicat' element={<Nicat />} />
             <Route path='/dogs' element={<Dogs />} />
+            <Route path='/users' element={<Users />} />
             <Route path='/dogs-redux' element={<DogsRedux />} />
             <Route path='/counter-reducer' element={<CounterWithReducer />} />
         </Routes>
